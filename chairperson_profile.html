@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chairperson Profile | Arunachal Pradesh Lokayukta</title>
+    <meta name="description" content="Profile of Chairperson Justice Prasanta Kumar Deka (Retd), Arunachal Pradesh Lokayukta.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://lokayukta.arunachal.gov.in/images/favicon.ico" type="image/x-icon">
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+    <script src="app.js" defer></script>
+    <style>
+        .profile-card {
+            background-color: var(--bg-card);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+            box-shadow: var(--shadow-md);
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 20px auto;
+            border: 4px solid var(--clr-primary);
+            box-shadow: var(--shadow-sm);
+            display: block;
+        }
+        .profile-name {
+            color: var(--text-dark);
+            margin-bottom: 5px;
+            font-size: 1.8rem;
+        }
+        .profile-role {
+            color: var(--clr-primary);
+            font-weight: 600;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        .profile-bio {
+            text-align: justify;
+            color: var(--text-muted);
+            line-height: 1.8;
+            font-size: 1.05rem;
+            padding: 0 20px;
+        }
+        @media (max-width: 768px) {
+            .profile-card {
+                padding: 20px;
+            }
+            .profile-bio {
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <div class="spacer"></div>
+
+    <div class="page-header">
+        <h1>Chairperson Profile</h1>
+        <p>Hon'ble Chairperson of Arunachal Pradesh Lokayukta</p>
+        <div class="breadcrumb">
+            <a href="index.html">Home</a> <span>/</span> <span>Leadership</span> <span>/</span> <span>Chairperson</span>
+        </div>
+    </div>
+
+    <div class="container" style="padding-top: 40px; padding-bottom: 60px;">
+        <div class="profile-card fade-in">
+            <img src="images/slider/chairperson.jpg" alt="Justice Prasanta Kumar Deka (Retd)" class="profile-photo" onerror="this.style.background='linear-gradient(135deg, var(--clr-primary), var(--clr-primary-light))'; this.src=''">
+            <h2 class="profile-name">Justice Prasanta Kumar Deka (Retd)</h2>
+            <div class="profile-role">Chairperson, Arunachal Pradesh Lokayukta</div>
+            <div class="profile-bio">
+                Born on 05.11.1959. Passed the Fifth Year (Electrical) Engineering Examination of the Integrated B.E. Course 1981 (held in October,1982) under Gauhati University from the Assam Engineering College, Jalukbari, Guwahati. Passed the Final Examination leading to the degree of Bachelor of Law (LLB) under the Gauhati University held in the month of January, 1989 from the Government Law College, Guwahati. Served M/S Hindustan Fertilizer Corporation, Namrup, OIL Pipeline (HQ) Narengi for a short period and joined in Assam State Electricity Board (A.S.E.B), Kahilipara, 132 EHV Grid Sub Station in the month of November, 1984 as Assistant Engineer and took voluntary retirement as Assistant Executive Engineer in November, 1995 from the A.S.E.B. Enrolled as an Advocate under the Bar Council of Assam, Nagaland, Meghalaya, Manipur, Tripura, Mizoram and Arunachal Pradesh on 19.01.1996. Concentrated practice in the Civil side both in the Lower Judiciary and the Gauhati High Court. Sworn in as an Additional Judge of Gauhati High Court on 15.11.2016. Became permanent Judge w.e.f. 12.11.2018. Currently serving as President of Assam State Consumer Disputes Redressal Commission.
+            </div>
+        </div>
+    </div>
+
+    <div id="footer-container"></div>
+</body>
+</html>
