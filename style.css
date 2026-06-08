@@ -142,7 +142,7 @@ ul { list-style: none; }
 }
 
 .top-separator {
-  color: var(--border-main);
+  color: #f7a200;
   font-size: 0.75rem;
   margin: 0 0.25rem;
 }
